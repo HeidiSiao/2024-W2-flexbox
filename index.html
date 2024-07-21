@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W2-Flexbox Practice</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="all.css">
+
+</head>
+
+<body>
+    <nav class="nav py-40">
+        <ul class="container d-flex jc-sb ai-c">
+            <li>WILLIAM LEE</li>
+            <li>BASED IN TAIWAN</li>
+            <li>CURRENTLY FRONT END<br />
+                ENGINEER AT HEXSCHOOL
+            </li>
+            <li>CONTACT ME</li>
+        </ul>
+    </nav>
+    <header class="cover bg-black">
+        <div class="container d-flex ai-c gap-6">
+            <img class="avatar" src="img/people.png" alt="William-avatar">
+            <div class="d-flex flex-col jc-c">
+                <h1 class="h2">Hi<br />
+                    I’m a front-end developer
+                </h1>
+                <span class="strong h1">William</span>
+                <div class="d-flex jc-fe">
+                    <a class="btn-text btn-style bg-white" href="#" target="_blank">
+                        contact me
+                        <img src="img/arrow_outward.png" alt="arrow-icon" class="arrow-tr">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="intro bg-black">
+            <div class="container d-flex gap-6">
+                <section class="intro-text">
+                    <h2 class="h2">Introduction</h2>
+                    <p class="fs-2 mb-8 mt-9">Hi, I'm William Lee, a Front-End Developer with a passion for
+                        building beautiful and
+                        responsive
+                        websites that provide an optimal user experience.</p>
+                    <div>
+                        <img src="img/sparkle-sm.png" alt="sparkle-img">
+                        <img src="img/sparkle-sm.png" alt="sparkle-img">
+                        <img src="img/sparkle-sm.png" alt="sparkle-img">
+                    </div>
+                </section>
+                <!-- 這邊針對圖片的父容器給w100不然一直填不滿 -->
+                <section class="intro-pic w-100">
+                    <ul class="pic-list">
+                        <li class="pic-item"><img src="img/sparkle.png" alt="sparkle-img"></li>
+                        <li class="pic-item"><img src="img/photographer.png" alt="photographer"></li>
+                        <li class="pic-item"><img src="img/people-2.png" alt="man"></li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+    <section>
+        <div class="container d-flex jc-sb ai-c py-160">
+            <ol class="about-list d-flex flex-wrap jc-sb ac-sb pb-2">
+                <li class="p-4">
+                    <p class="fs-3">01</p>
+                    <h3 class="fs-3">Attention to Detail</h3>
+                    <p>Meticulous code analysis and optimization.</p>
+                </li>
+                <li class="p-4">
+                    <p class="fs-3">02</p>
+                    <h3 class="fs-3">Adaptability</h3>
+                    <p>Swift learning of new technologies.</p>
+                </li>
+                <li class="p-4">
+                    <p class="fs-3">03</p>
+                    <h3 class="fs-3">Problem Solver</h3>
+                    <p>Identifying and resolving issues.</p>
+                </li>
+                <li class="p-4">
+                    <p class="fs-3">04</p>
+                    <h3 class="fs-3">Team Player</h3>
+                    <p>Collaborates and shares ideas.</p>
+                </li>
+            </ol>
+            <article class="about-content">
+                <h2 class="h2 mb-9">About Me</h2>
+                <p class="fs-2">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and
+                    React. I have a
+                    strong understanding of user experience design and accessibility. I'm always learning new
+                    technologies and techniques to stay up-to-date in the field.
+                </p>
+            </article>
+        </div>
+    </section>
+
+    <figure class="figure-bg">
+        <figcaption class="container d-flex ai-c jc-sb py-96">
+            <div class="d-flex">
+                <h2 class="h2 mr-4 ">CONTACT ME</h2>
+                <img src="img/trending_flat_black_24dp 1.png" alt="arrow-icon" class="arrow-r d-block">
+            </div>
+            <ul class="d-flex">
+                <li class="media-btn">
+                    <a href="#" target="_blank">
+                        <img src="img/discord.png" alt="discord">
+                    </a>
+                </li>
+                <li class="media-btn btn-space">
+                    <a href="#" target="_blank">
+                        <img src="img/instagram.png" alt="instagram">
+                    </a>
+                </li>
+                <li class="media-btn">
+                    <a href="#" target="_blank">
+                        <img src="img/message.png" alt="line">
+                    </a>
+                </li>
+            </ul>
+        </figcaption>
+    </figure>
+
+    <section>
+        <div class="container py-160">
+            <h2 class="works-title h2 mb-4">My Projects</h2>
+            <div class="d-flex gap-6">
+                <img src="img/Rectangle 10.png" alt="showcase">
+                <article class="d-flex flex-wrap jc-sb ac-sb">
+                    <div class="d-flex gap-6 ">
+                        <img src="img/Rectangle 15.png" alt="showcase">
+                        <div class="d-flex flex-col jc-sb">
+                            <p>
+                                I've worked on a variety of websites, including e-commerce sites, blogs, and landing
+                                pages.
+                                I
+                                take
+                                pride
+                                in creating clean, efficient, and user-friendly code.
+                            </p>
+                            <a class="bg-black btn-style mr-a" href="#" target="_blank">
+                                SEE MORE
+                                <img src="img/arrow_outward-white.png" alt="arrow-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <img class="m-0" src="img/Rectangle 14.png" alt="showcase">
+                    <img class="m-0" src="img/Rectangle 29.png" alt="showcase">
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-40 bg-black ">
+        <p class="ta-c">all rights reserved @hexschool2023</p>
+    </footer>
+
+</body>
+
+</html>
